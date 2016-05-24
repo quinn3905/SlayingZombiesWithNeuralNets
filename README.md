@@ -8,5 +8,11 @@
   http://www.ai-junkie.com/ann/evolved/nnt1.html
   
 ###Genetic Algorithms
-
+  A genetic algorithm is an algorithm that attempts to maximize a certain value using methods that mimic evolution. In our project, we use a genetic algorithm to tweak the variables that determine what calculations each neuron in a neural net performs on its inputs---the better these calculations, the better the neural net's performance. Our genetic algorithm works by producing a "first generation" with random values, then taking the best-performing neural nets from this generation and splicing their genomes together to create new neural networks (just as evolution splices the genomes of fit members of a species through sexual reproduction). For an explanation of the process through which this splicing occurs, see: http://www.ai-junkie.com/ga/intro/gat1.html
+  
 ###The Game
+
+
+#Sample Results
+
+#Attribution Information
