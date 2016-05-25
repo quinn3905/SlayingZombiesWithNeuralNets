@@ -12,6 +12,6 @@
   
 ###The Game
 
-![Alt text](PSATmail.JPG "Title")
+![Alt text](SampleGame.JPG "A Sample Game")
 
 #Attribution Information
