@@ -13,6 +13,7 @@
 ###The Game
   "Zombie Slayer" is an ASCII-graphics turn-based game in which a player ("P") moves around a map (with walls labeled "X") trying to kill zombies ("E") before the zombies bite civilians ("C") turning them into more zombies. In the single-player version of the game (which can be found in this project as "Zombie Slayer (Single Player).py") a human is asked each turn to enter either w/a/s/d (to move) or "k" to use the player's knife to kill all adjacent zombies. In the Neural Network version of the game, the Neural Network chooses which of these moves to make as a result of values that the game sends to it.
   A SAMPLE GAME:
+  
 ![Alt text](SampleGame.JPG "A Sample Game")
 
 
