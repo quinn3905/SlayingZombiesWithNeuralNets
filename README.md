@@ -25,4 +25,4 @@ This project was contributed by: Adam Quinn and Natasha Thomas
 
 Special thanks to the University of Illinois NetMath Program and the mathematics department at William Fremd High School
 
-After work by the creators of doublezoom.free.fr and http://www.ai-junkie.com/index.html
+After work by the creators of http://doublezoom.free.fr and http://www.ai-junkie.com/index.html
