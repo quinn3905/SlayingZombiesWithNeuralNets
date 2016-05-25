@@ -1,6 +1,6 @@
 
 #Overview
-  Hi! My name is Adam Quinn, and I'm excited to share with you this project, which I developed with my partner Natasha Thomas. The goal of this project is to demonstrate how a "Neural Network" can be evolved using a "Genetic Algorithm" to better complete a task---in this case playing a simple game called "Zombie Slayer." Below is an explanation of these technical terms, as well as attribution information and sample results. If you are already familiar with neural networks and genetic algorithms, feel free to go to "INSTALLATION.md" for information on how to setup this project or "USERGUIDE.md" for information on how to use it.
+  Hi! My name is Adam Quinn, and I'm excited to share with you this project, which I developed with my partner Natasha Thomas. The goal of this project is to demonstrate how a "Neural Network" can be evolved using a "Genetic Algorithm" to better complete a task---in this case playing a simple game called "Zombie Slayer." Below is an explanation of these technical terms, as well as authoring information and sample results. If you are already familiar with neural networks and genetic algorithms, feel free to go to "INSTALLATION.md" for information on how to setup this project or "USERGUIDE.md" for information on how to use it.
   
 ###Neural Networks
   A neural network is a method of creating a program to make decisions. A neural network is composed of several layers of "neurons" which each receive inputs, perform a mathematical operation on them, and produce a single output. The number of neurons in each layer, and the number of layers, varies from neural net to neural net---a larger number of neurons creates a smarter, but slower network---but no matter the size, the neural network operates by receiving a set of inputs from the environment, running them through each neuron layer, and producing a set of outputs that corresponds to possible actions the neural network could take. For example, our neural network has a layer of six neurons that receive ten input values, then pass their results to a layer of three output neurons that produce a set of three outputs.
@@ -18,4 +18,11 @@
 ![Alt text](SampleGame.JPG "A Sample Game")
 
 
-#Attribution Information
+#Sample Results
+
+#Authoring Information
+This project was contributed by: Adam Quinn and Natasha Thomas
+
+Special thanks to the University of Illinois NetMath Program and the mathematics department at William Fremd High School
+
+After work by:  doublezoom.free.fr and 
