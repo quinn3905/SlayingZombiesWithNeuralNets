@@ -16,3 +16,4 @@
       -copy
       
 3. Finally, download the Python files "NeuralNetwork.py", "ZombieSlayer(Neural Network).py", and "ResultsPlotter.py" if you want to use the Neural Network version of the game, or just download "Zombie Slayer(Single Player).py" if you want to try the human version of the game.
+4. Go to "USERGUIDE.md" to learn how to use the Neural Network version of the game.
