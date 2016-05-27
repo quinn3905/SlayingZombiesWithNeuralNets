@@ -1,4 +1,4 @@
-PBefore you start using this project, make sure you have read INSTALLATION.md, installed all the necessary libraries, and placed all of our Python files (one if you are using the human version, three if you are using the Neural Network version) in the same folder.
+Before you start using this project, make sure you have read INSTALLATION.md, installed all the necessary libraries, and placed all of our Python files (one if you are using the human version, three if you are using the Neural Network version) in the same folder.
 
 #Human Version
 
@@ -12,9 +12,9 @@ Like the neural net, you may move your character ("P") in any direction with was
 
 ###The Interface
 
-Although there are three Python files for this version of the game, you should only open the one called "Zombie Slayer (Neural Network).py". So long as you have all three files in the same folder, this file will open the other ones automatically.
+Although there are three Python files for this version of the game, you should only open the one called "Zombie Slayer (Neural Network).py". Just like the single-player version of the game, this console window will ask you to choose the size of the map and number of zombies and civilians. After you have done so (as long as you have all three Python files in the same folder), this file will open the other ones automatically.
 
-Once you open this file, three black console windows and one gray "figure" window will appear. The only ones that you need to watch are the figure window and the console window that looks like the one shown below:
+When this happens, you will have three black console windows and one gray "figure" window on the screen. The only ones that you need to watch are the figure window and the console window that looks like the one shown below:
 
 !!!!!!!!!!!!
 
@@ -26,8 +26,19 @@ Our project provides you with many different ways to interact with and observe o
 
 After this, you will be asked how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible, so that you can see how the effects of your choices play out---OR (by entering "0") watch as every neural network is tested, viewing their individual scores, as well as the average score for their generation and how this differs from previous generations. Once the program has completed the number of generation you specified, you will be given this option again.
 
-Finally, whenever the evolution process occurs (and the program is not skipping through generations) you will be given the option to 
+Finally, whenever the evolution process occurs (and the program is not skipping through generations) you will be given the option to watch this evolution "in detail." Choosing this option will make the program show you the individual scores of each member of the past generation, then walk you through the process of selecting parents, creating offspring, and mutating their genomes.
 
 ###Expected Behavior / Sample Results
+
+The options that you choose with regard to crossing over and the mutation rate will have a large effect on the outcome you find. However, in most cases, the algorithm will improve dramatically in the beginning:
+
+!!!!!!!!!!!
+
+And then settle into a local optimum, which is usually either using the player's knife repeatedly, or using the knife interspersed with some movement in various directions. 
+
+!!!!!!!!!!!
+
+If you choose a sufficiently large map size, it is likely that after a sufficient number of generations the algorithm would begin to pursue the zombies actively. However, large map sizes can also become prohibitively computationally expensive.
+
 
 ###Troubleshooting / Known Issues
