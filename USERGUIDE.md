@@ -13,3 +13,13 @@ Like the neural net, you may move your character ("P") in any direction with was
 ###The Interface
 
 Although there are three Python files for this version of the game, you should only open the one called "Zombie Slayer (Neural Network).py". So long as you have all three files in the same folder, this file will open the other ones automatically.
+
+Once you open this file, three black console windows and one gray "figure" window will appear. The only ones that you need to watch are the figure window and the console window that looks like the one shown below:
+
+!!!!!!!!!!!!
+
+The figure window will show the performance of the neural networks over time as boxplots, while the console window will allow you to interact with the program.
+
+###Options for Interacting
+
+Our project provides you with many different ways to interact with and observe our neural networks! The first question you will be prompted with when you open the game (as shown above) is how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible---you can watch their performance in the "figure" window.
