@@ -1,4 +1,4 @@
-Before you start using this project, make sure you have read INSTALLATION.md, installed all the necessary libraries, and placed all of our Python files (one if you are using the human version, three if you are using the Neural Network version) in the same folder.
+PBefore you start using this project, make sure you have read INSTALLATION.md, installed all the necessary libraries, and placed all of our Python files (one if you are using the human version, three if you are using the Neural Network version) in the same folder.
 
 #Human Version
 
@@ -24,7 +24,9 @@ The figure window will show the performance of the neural networks over time as 
 
 Our project provides you with many different ways to interact with and observe our neural networks! The first few prompts you will see in the console window will allow you to choose some of the parameters that determine how the genetic algorithm (GA) behind this project will function. You can choose whether the GA will "cross-over" the genomes of the neural networks during the evolution process (similar to sexual reproduction in nature) or not (as in asexual reproduction). You can also choose how likely it is that a given gene will mutate during evolution---higher values may speed up the evolution process, but they may also make it more erratic.
 
-After this, you will be asked how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible, so that you can see how the effects of your choices play out---OR (by entering "0") watch as every neural network is tested, viewing their individual scores, as well as the average score for their generation and how this differs from previous generations. Once the program has completed the number of 
+After this, you will be asked how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible, so that you can see how the effects of your choices play out---OR (by entering "0") watch as every neural network is tested, viewing their individual scores, as well as the average score for their generation and how this differs from previous generations. Once the program has completed the number of generation you specified, you will be given this option again.
+
+Finally, whenever the evolution process occurs (and the program is not skipping through generations) you will be given the option to 
 
 ###Expected Behavior / Sample Results
 
