@@ -15,7 +15,7 @@
   
   A SAMPLE GAME:
   
-![Alt text](SampleGame.JPG "A Sample Game")
+![Alt text](images/SampleGame.JPG "A Sample Game")
 
 
 #Sample Results
