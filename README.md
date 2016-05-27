@@ -23,4 +23,14 @@ This project was contributed by: Adam Quinn and Natasha Thomas
 
 Special thanks to the University of Illinois NetMath Program and the mathematics department at William Fremd High School
 
-After work by the creators of http://doublezoom.free.fr and http://www.ai-junkie.com/index.html
+Works Cited:
+
+  Buckland, Mat. Ai-junkie. N.p., n.d. Web. 27 May 2016. <http://www.ai-junkie.com/index.html>.
+
+  RyZum. "Genetic Algorithms." Doublezoom. Free.fr, n.d. Web. 27 May 2016. <http://doublezoom.free.fr/programmation/index.php>.
+  
+Similar Projects on Github:
+
+  [NeuralTalk](https://github.com/karpathy/neuraltalk)
+  [Genetic-Algorithms](https://github.com/janmonschke/Genetic-Algorithms)
+  [HTML5_Genetic_Cars](https://github.com/red42/HTML5_Genetic_Cars)
