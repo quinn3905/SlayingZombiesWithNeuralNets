@@ -43,7 +43,7 @@ If you choose a sufficiently large map size, it is likely that after a sufficien
 
 ###Troubleshooting / Known Issues
 
--> The Neural Network file may fail to start the first time it is run on a new computer. The cause of this bug is unknown; the best fix is re-running the code.
+-> The Neural Network file may fail to make a socket connection to the other files the first time it is run on a new computer. The cause of this bug is unknown; the best fix is to leave the other two console windows running and re-open the Neural Network manually by clicking "NeuralNetwork.py"
 
 -> If the program consistently fails to start, it is possible that it cannot find the libraries it needs. This is especially a problem on computers with multiple versions of Python installed, as the file may be attempting to use a version of Python that does not have the necessary libraries. The best fix (on Windows) is to run the program from the command line so that you can see which libraries are missing, and then double-check that the file is opening with the correct version of Python.
 
