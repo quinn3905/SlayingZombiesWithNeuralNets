@@ -48,3 +48,5 @@ If you choose a sufficiently large map size, it is likely that after a sufficien
 -> If the program consistently fails to start, it is possible that it cannot find the libraries it needs. This is especially a problem on computers with multiple versions of Python installed, as the file may be attempting to use a version of Python that does not have the necessary libraries. The best fix (on Windows) is to run the program from the command line so that you can see which libraries are missing, and then double-check that the file is opening with the correct version of Python.
 
 -> Once you have exceeded 50 generations, the stability of the figure window degrades. This is an issue with the matplotlib library and the underlying computational efficiency of Python, so the only fix is to use a more powerful computer.
+
+-> If you find any other bugs, please create an "Open Issue" on this repository to let others know!
