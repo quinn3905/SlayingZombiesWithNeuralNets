@@ -32,5 +32,7 @@ Works Cited:
 Similar Projects on Github:
 
   [NeuralTalk](https://github.com/karpathy/neuraltalk)
+  
   [Genetic-Algorithms](https://github.com/janmonschke/Genetic-Algorithms)
+  
   [HTML5_Genetic_Cars](https://github.com/red42/HTML5_Genetic_Cars)
