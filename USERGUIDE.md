@@ -16,7 +16,7 @@ Although there are three Python files for this version of the game, you should o
 
 When this happens, you will have three black console windows and one gray "figure" window on the screen. The only ones that you need to watch are the figure window and the console window that looks like the one shown below:
 
-!!!!!!!!!!!!
+![Alt text](images/Setup.JPG "Setup")
 
 The figure window will show the performance of the neural networks over time as boxplots, while the console window will allow you to interact with the program.
 
@@ -24,19 +24,25 @@ The figure window will show the performance of the neural networks over time as 
 
 Our project provides you with many different ways to interact with and observe our neural networks! The first few prompts you will see in the console window will allow you to choose some of the parameters that determine how the genetic algorithm (GA) behind this project will function. You can choose whether the GA will "cross-over" the genomes of the neural networks during the evolution process (similar to sexual reproduction in nature) or not (as in asexual reproduction). You can also choose how likely it is that a given gene will mutate during evolution---higher values may speed up the evolution process, but they may also make it more erratic.
 
-After this, you will be asked how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible, so that you can see how the effects of your choices play out---OR (by entering "0") watch as every neural network is tested, viewing their individual scores, as well as the average score for their generation and how this differs from previous generations. Once the program has completed the number of generation you specified, you will be given this option again.
+After this, you will be asked how many generations you want to "skip." This option allows you to tell the program to test a large number of neural networks as quickly as possible, so that you can see how the effects of your choices play out---OR (by entering "0") watch as every neural network is tested, viewing their individual scores, as well as the average score for their generation and how this differs from previous generations. 
+
+![Alt text](images/IndividualReport.JPG "An example of a report you might get if not skipping generations.")
+
+Once the program has completed the number of generation you specified, you will be given this option again.
 
 Finally, whenever the evolution process occurs (and the program is not skipping through generations) you will be given the option to watch this evolution "in detail." Choosing this option will make the program show you the individual scores of each member of the past generation, then walk you through the process of selecting parents, creating offspring, and mutating their genomes.
+
+![Alt text](images/Evolution Example.JPG "An example of the output from viewing evolution 'in detail.'")
 
 ###Expected Behavior / Sample Results
 
 The options that you choose with regard to crossing over and the mutation rate will have a large effect on the outcome you find. However, in most cases, the algorithm will improve dramatically in the beginning:
 
-!!!!!!!!!!!
+![Alt text](images/InitialGrowth.JPG "Box plots show initial growth.")  ![Alt text](images/VaryingMoves.JPG "The NN's moves vary.")
 
 And then settle into a local optimum, which is usually either using the player's knife repeatedly, or using the knife interspersed with some movement in various directions. 
 
-!!!!!!!!!!!
+![Alt text](images/SettleOut.JPG "Average values no longer increase.") ![Alt text](images/kOnly.JPG "NN settles on a local max.")
 
 If you choose a sufficiently large map size, it is likely that after a sufficient number of generations the algorithm would begin to pursue the zombies actively. However, large map sizes can also become prohibitively computationally expensive.
 
